@@ -47,7 +47,8 @@
         </div>
         <div class="contact">
             <div class="contact-form">
-                <form >
+                <form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true">
+                    <input type="hidden" name="form-name" value="contact">
                     <div class="row">
                         <div class="input50">
                             <input type="text" placeholder="First Name">
